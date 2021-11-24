@@ -31,7 +31,7 @@ public class MyTreeListTest {
     public void remove() {
         MyTreeList list = new MyTreeList();
         list.add(1);
-        list.add(2);k
+        list.add(2);
         list.remove(0);
         assertEquals(0,list.indexOf(2));
         assertEquals(1,list.remove(0));

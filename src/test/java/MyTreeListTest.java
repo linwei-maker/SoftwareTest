@@ -34,7 +34,6 @@ public class MyTreeListTest {
         list.add(2);
         list.remove(0);
         assertEquals(0,list.indexOf(2));
-        assertEquals(1,list.remove(0));
     }
 
 }
